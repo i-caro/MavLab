@@ -1,0 +1,147 @@
+/* Aseguramos que el body y html ocupen el 100% de la altura */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilización de la navbar - Sticky */
+.navbar {
+    background-color: #2c6e49; /* Verde oscuro */
+    position: sticky;
+    top: 0;
+    z-index: 9999; /* Asegura que la navbar se quede arriba al hacer scroll */
+}
+
+/* Estilo para el texto de la navbar */
+.navbar-brand, .navbar-nav .nav-link {
+    color: white !important; /* Cambiar texto a blanco */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #a3d2a1 !important; /* Verde claro al pasar el ratón */
+}
+
+/* Estilización de la sección de bienvenida */
+.welcome-section {
+    background: linear-gradient(to bottom, #a1d9a1, #4b9f71); /* Fondo verde suave */
+    padding: 60px 0;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 60px;
+}
+
+.welcome-section h1 {
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: #2c6e49; /* Verde oscuro */
+}
+
+.welcome-section p {
+    font-size: 1.2rem;
+    color: #2c6e49; /* Verde oscuro */
+}
+
+.welcome-section a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    background-color: #2c6e49; /* Verde oscuro */
+    color: white;
+    padding: 12px 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-section a:hover {
+    background-color: #1e4f32; /* Verde más oscuro */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilización de la galería */
+#gallery img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Fondo general */
+body {
+    background-color: #f4f9f4; /* Color muy suave verde pastel */
+    color: #333;
+}
+
+/* Contenedor de contenido principal para hacer crecer el contenido y empujar el footer */
+.main-content {
+    flex-grow: 1;
+    padding-bottom: 100px; /* Un poco de espacio para no superponer el footer */
+}
+
+/* Estilo para el footer */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilo para las redes sociales en el footer */
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #a3d2a1; /* Verde claro al pasar el ratón */
+}
+
+/* Tamaño y espaciado de los iconos de redes sociales */
+footer .fa {
+    margin: 0 15px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+footer .fa:hover {
+    transform: scale(1.1);
+    color: #a3d2a1; /* Verde claro al pasar el ratón */
+}
+
+/* Estilo de las tarjetas de innovación */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Imágenes dentro de las tarjetas */
+.card-img-top {
+    border-radius: 10px;
+    object-fit: cover;
+    height: 250px;
+}
+
+.bg-light {
+    background-color: #f0f8f1 !important;
+}
+
+/* Tarjetas de testimonios */
+.blockquote {
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.stars{
+    color: gold;
+}
