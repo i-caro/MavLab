@@ -24,6 +24,10 @@ body {
   color: #6ed5ec !important; /* Verde claro al pasar el ratón */
 }
 
+#seleccionado{
+  color: #3cc6e6 !important;
+}
+
 /* Estilización de la sección de bienvenida */
 .welcome-section {
   background: linear-gradient(
@@ -150,4 +154,40 @@ footer .fa:hover {
 
 .stars {
   color: gold;
+}
+
+/* Estilo destacado para el bloque de satisfacción */
+#satisfaccion {
+  background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+  border: 2px solid #00acc1;
+  border-radius: 12px;
+  padding: 40px 20px;
+  box-shadow: 0 6px 15px rgba(0, 172, 193, 0.2);
+  transition: transform 0.3s ease;
+}
+
+#satisfaccion:hover {
+  transform: scale(1.02);
+}
+
+#satisfaccion h3 {
+  color: #007c91;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+#satisfaccion p {
+  font-size: 1.1rem;
+  color: #004d40;
+}
+
+#satisfaction-link {
+  font-weight: bold;
+  color: #00695c;
+  text-decoration: underline;
+}
+
+#satisfaction-link:hover {
+  color: #004d40;
+  text-decoration: none;
 }
